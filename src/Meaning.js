@@ -7,10 +7,9 @@ export default function Meaning(props) {
       <h3>{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
-          <div ket={index}>
+          <div key={index}>
+            <h5> {definition.definition}</h5>
             <p>
-              <h5> {definition.definition}</h5>
-
               <em> {definition.example}</em>
             </p>
           </div>

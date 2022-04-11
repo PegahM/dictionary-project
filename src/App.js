@@ -13,7 +13,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Pegah</small>
+          <small>
+            Coded by Pegah and is{" "}
+            <a
+              href="https://github.com/PegahM/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
